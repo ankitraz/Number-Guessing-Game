@@ -13,7 +13,10 @@ class game {
     }
 
     void getinput() {
-        System.out.println("Guess the number: ");
+        System.out.println("---------------------------------------------");
+        System.out.println("Computer has guessed the game. Enter your guess!");
+        System.out.println("---------------------------------------------");
+        System.out.println("Guess the number between 1-10: ");
         user_inp = sc.nextInt();
     }
 
